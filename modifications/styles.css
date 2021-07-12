@@ -68,6 +68,31 @@ body {
     color: white !important;
 }
 
+.panel-default>.panel-heading {
+    background-image: -webkit-linear-gradient(top,var(--darker) 0,var(--darker) 100%) !important;
+    background-image: -o-linear-gradient(top,var(--darker) 0,#e8e8e8 100%) !important;
+    background-image: linear-gradient(to bottom,var(--darker) 0,var(--darker) 100%) !important;
+}
+
+.panel-default>.panel-heading {
+    color: white !important;
+    background-color: var(--darker) !important;
+    border-color: var(--darkest) !important;
+}
+
+.panel {
+    background-color: var(--darkest) !important;
+}
+
+.panel-default {
+    border-color: var(--darkest) !important;
+}
+
+.panel-footer {
+    background-color: var(--darker) !important;
+    border-top: 1px solid var(--darkest) !important;
+}
+
 .dropdown-menu>li>a {
     color: white !important;
 }
@@ -253,4 +278,35 @@ a.list-group-item {
 
 .popover-content table.character-dyes td{
     background-color: var(--darkest) !important;
+}
+
+.nvtooltip {
+    background-color: var(--darker) !important;
+    border: 1px solid var(--darkest) !important;
+}
+
+.message-body, .preview {
+    background-color: var(--darkest) !important;
+    border: 1px solid var(--darkest) !important;
+}
+
+.reply-button-container {
+    border: 1px solid var(--darkest) !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: var(--darker) !important;
+}
+
+.popover.right>.arrow:after {
+    border-right-color: var(--darkest) !important;
+}
+
+.popover-content .stats-table tbody tr td {
+    background-color: var(--darkest) !important;
+    color: white !important;
+}
+
+.pet-ability-maxed, td.maxed, td>span.maxed {
+    text-shadow: 0 0 .2em purple !important;
 }
